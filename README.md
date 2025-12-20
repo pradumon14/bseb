@@ -12,7 +12,37 @@ This repository serves as a comprehensive archive of my Class 12 Computer Scienc
 The repository is divided into two primary sections:
 1.  **C++ Source Code:** 20+ programs covering arrays, stacks, queues, and file handling.
 2.  **Database Management:** Schema design and SQL queries based on real-world student data scenarios.
-
+```
+bseb/
+│
+├── cpp/
+│   ├── p01_array_sum_avg.cpp
+│   ├── p02_array_insertion.cpp
+│   ├── p03_array_deletion.cpp
+│   ├── p04_array_linear_search.cpp
+│   ├── p05_array_binary_search.cpp
+│   ├── p06_array_sorting.cpp
+│   ├── p07_array_merging.cpp
+│   ├── p08_matrix_addition.cpp
+│   ├── p09_matrix_multiplication.cpp
+│   ├── p10_matrix_transpose.cpp
+│   ├── p11_array_of_structures_student.cpp
+│   ├── p12_array_of_objects_employee.cpp
+│   ├── p13_stack_array.cpp
+│   ├── p14_stack_linkedlist.cpp
+│   ├── p15_queue_linear.cpp
+│   ├── p16_queue_circular.cpp
+│   ├── p17_queue_linkedlist.cpp
+│   ├── p18_binary_file_student.cpp
+│   ├── p19_text_file_operations.cpp
+│   ├── p20_prime_sieve.cpp
+│   ├── p21_polynomial_addition.cpp
+│   └── p22_sparse_matrix.cpp
+│
+├── sql/
+│   └── class10.db 
+└── README.md
+```
 ---
 
 ## 1. C++ Programming Implementations
