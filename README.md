@@ -130,7 +130,14 @@ To run this project locally, clone the repository to your system:
 git clone https://github.com/pradumon14/bseb
 cd bseb
 ```
-
+For c++ files, change Directory 
+```
+cd cpp
+```
+For the sql database
+```
+cd sql
+```
 ### 2. Compile and Run C++ Programs
 Ensure that a C++ compiler is installed on your system. Use the commands below according to your OS.
 
