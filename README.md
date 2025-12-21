@@ -12,6 +12,7 @@ This repository serves as a comprehensive archive of my Class 12 Computer Scienc
 The repository is divided into two primary sections:
 1.  **C++ Source Code:** 20+ programs covering arrays, stacks, queues, and file handling.
 2.  **Database Management:** Schema design and SQL queries based on real-world student data scenarios.
+3.  **Project :*** A students record management system.
 ```
 bseb/
 │
@@ -41,6 +42,8 @@ bseb/
 │
 ├── sql/
 │   └── class10.db 
+├── project/
+│   └── Student_record_management_system.cpp
 └── README.md
 ```
 ---
@@ -110,7 +113,7 @@ The queries in this project are validated against the following `Students` datas
 | 14 | Pradumon  | 14     | 10    | 2023-24 | Male   |
 | 15 | Saloni    | 15     | 10    | 2023-24 | Female |
 | 16 | Aditi     | 16     | 10    | 2023-24 | Female |
-| 17 | Manisha   | 17     | 10    | 2023-24 | Female |
+| 17 | Manisa   | 17     | 10    | 2023-24 | Female |
 | 18 | Gulabsa   | 18     | 10    | 2023-24 | Female |
 | 19 | Jhanvi    | 19     | 10    | 2023-24 | Female |
 | 20 | Zehra     | 20     | 10    | 2023-24 | Female |
@@ -138,6 +141,12 @@ For the sql database
 ```
 cd sql
 ```
+For the project cpp programs
+```
+cd project
+```
+
+
 ### 2. Compile and Run C++ Programs
 Ensure that a C++ compiler is installed on your system. Use the commands below according to your OS.
 
