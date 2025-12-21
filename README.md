@@ -121,6 +121,42 @@ The queries in this project are validated against the following `Students` datas
 | 22 | Roshni    | 22     | 10    | 2023-24 | Female |
 | 23 | Samma     | 23     | 10    | 2023-24 | Female |
 | 24 | Putul     | 24     | 10    | 2023-24 | Female |
+---
+## 3. Project: Student Record Management System
+
+**File:** `student_management.cpp`
+
+This project is a console-based application developed to automate the management of student academic records.
+
+### Project Objective
+To design a robust system that replaces manual record-keeping with a computerized database using binary files for permanent storage, ensuring data integrity and fast retrieval.
+
+### Technical Specifications
+*   **Paradigm:** Object-Oriented Programming (Classes & Objects).
+*   **Storage:** Binary File Handling (`.dat` files) using `fstream`.
+*   **Interface:** Menu-driven console interface (CLI).
+*   **Restrictions:** Implemented without STL Vectors (using strict arrays) to comply with syllabus constraints.
+
+### Functional Modules
+The system implements full **CRUD** (Create, Read, Update, Delete) operations:
+
+1.  **Data Entry (Write):** 
+    *   Accepts Roll No, Name, Class, Section, and Marks for 5 subjects.
+    *   Automatically calculates Total, Percentage, and Grade (`A` to `F`) before saving.
+2.  **Display Records (Read):**
+    *   **Tabular View:** Lists all students in a clean, aligned table format for quick overview.
+    *   **Individual View:** Detailed "Profile Card" view for specific search results.
+3.  **Search Logic:**
+    *   Retrieves specific student details using `Roll Number` as the primary key.
+4.  **Modification (Update):**
+    *   Locates a record, accepts new data, and overwrites the specific object in the binary file using file pointers (`seekp` and `tellg`).
+5.  **Deletion (Delete):**
+    *   Uses a temporary file strategy to filter out and remove specific records physically from the storage.
+
+###  Code Structure
+*   `class Student`: Encapsulates all data members and helper functions like `calculate()`.
+*   `getData()` / `showData()`: Public interface for input/output.
+*   `binary` modes: Uses `ios::binary`, `reinterpret_cast`, and `sizeof()` for accurate memory dumping.
 
 ---
 
